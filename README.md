@@ -1,6 +1,6 @@
 # NoSQL Database Design Labs – COER University
 
-Solutions for Lab Sheets 2, 3, 4, 5. Copy-paste ready for `mongosh`, `redis-cli`, `cqlsh`, `hbase shell`, Riak HTTP API (`curl`), Cypher + Python.
+Solutions for Lab Sheets 2, 3, 4, 5. 
 
 ## Files
 - `LAB2.md` – Lab Sheet 2: RDBMS vs MongoDB, MongoDB CRUD, Orders embedded, Redis, Cassandra, HBase, Neo4j, deployment, sharding, replica-set, P2P, sharding+replication, MapReduce, distribution models (Q1–Q15)
@@ -27,7 +27,7 @@ pip install neo4j requests
 
 ## Push to GitHub
 ```bash
-cd "C:\Users\gandh\OneDrive\Documents\Default Project"
+cd "C:\Users\\OneDrive\Documents\Default Project"
 git init
 git add LAB2.md LAB3.md LAB4.md LAB5.md README.md
 git commit -m "Add NoSQL Lab Sheets 2-5 solutions"
@@ -35,4 +35,3 @@ git branch -M main
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 ```
-Replace `<your-username>/<your-repo>` with your repo. If repo already exists locally, skip `git init` and just `git add/commit/push`.
